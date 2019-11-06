@@ -8,9 +8,17 @@
     "test-watch":"jest --watch",
     "build": "webpack"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LloydFranklinSmith/tsstarter"
+  },
   "keywords": [],
   "author": "Lloyd Franklin Smith",
   "license": "unlicense",
+  "bugs": {
+    "url": "https://github.com/LloydFranklinSmith/tsstarter/issues"
+  },
+  "homepage": "https://github.com/LloydFranklinSmith/tsstarter#readme",
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"
